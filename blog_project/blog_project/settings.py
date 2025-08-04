@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'graphene_django',
     'blog',
+    'rest_framework',  # Added for REST framework support
+    'cor'
 
 ]
 

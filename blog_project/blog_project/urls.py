@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # GraphQL endpoint
     path('', include('blog.urls')),
+    path('cor/', include('cor.urls')),
 
 ]
